@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   
+<form action="#" method="get">
+
+   <div>
+      <p>Name</p>
+      <p><input type="text" name="username"  placeholder="Name" tabindex="1"></p>
+   </div>
+   
+   <div>
+      <p>Password</p>
+      <p><input type="password" name="userpass"  tabindex="2"></p>
+   </div>
+   
+   <div>
+      <p>Telephone</p>
+      <p><input type="tel" name="usephone" tabindex="3" ></p>
+   </div>
+    
+   <div>
+      <p>Sex</p>
+         <div> 
+             <input type="radio" tabindex="4" name="usergender" value="male" checked> Male
+         </div>
+         <div> 
+             <input type="radio" tabindex="4" name="usergender" value="female" > Female
+         </div>
+   </div>
+
+   <div>
+      <p>Property</p>
+      <div> <input type="checkbox" tabindex="5" checked name="bike" value="yes"> Bycicle </div>
+   </div>
+   <div>
+      <div> <input type="checkbox" tabindex="6" name="car" value="yes" > Car </div>
+   </div>
+   <div>
+      <div> <input type="checkbox" tabindex="7" name="house" disabled value="yes" > Appartment </div>
+   </div>
+
+   <div>
+      <p>Extra information</p>
+      <textarea name="userinfo" tabindex="8"></textarea>
+   </div>
+
+   <div>
+      <p>Pin the photo</p>
+      <div>
+         <input type="file" name="" id="" tabindex="9">
+      </div>
+   </div>
+
+   <div>
+      <p>Faforite color</p>
+      <select tabindex="10"  name="color">
+         <option value="">yellow</option>
+         <option red="">red</option>
+         <option blue="" selected >blue</option>
+      </select>
+   </div>
+
+   <div>
+      <p>Action</p>
+      <div>
+         <button type="submit">  Send </button>
+         <button type="reset"> Reset</button>
+      </div>
+   </div>
+</form>
+</body>
+</html>
